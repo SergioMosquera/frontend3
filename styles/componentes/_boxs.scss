@@ -1,0 +1,19 @@
+table,td {
+    vertical-align: top;
+    background-color: $primary-color ;
+}
+.whiteTitles{
+    color: $primary-color;
+    background-image: $img-background;
+}
+.gralcontent {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid $color-border;
+    background: $primary-color;
+} a{
+    text-decoration:none;
+}
