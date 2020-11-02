@@ -1,19 +1,50 @@
+
 table,td {
     vertical-align: top;
-    background-color: $primary-color ;
+    background-color: $primary-color;
 }
 .whiteTitles{
     color: $primary-color;
-    background-image: $img-background;
+    background-image:$img-background;
+    width: 100%;
+    padding: 2px;
 }
+@media only screen and (max-width:768px){
+    #general{
+        display: inline; 
+        @include box-general;          
+    }
+}
+@media  screen and (min-width:800px){
+    #general{
+        float: left;
+        @include box-general;       
+     }
+}   
+#beast{@extend #general};
+#agency{@extend #general};
+#reports{@extend #general};
+#skippedModal{@extend #general};    
+
 .gralcontent {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    margin: 10px;
-    padding: 5px;
-    border: 5px solid $color-border;
-    background: $primary-color;
-} a{
-    text-decoration:none;
+        width: 100%;
+        height: 100%; 
+        padding: 5px;
+        background: $primary-color;       
+    ul,li,a {
+        color:$second-color;
+        text-decoration: none;
+        list-style:none;
+    }        
+    li:hover{
+            background-color:$color-hover;
+        a:hover{
+            color:$primary-color;
+            text-decoration: none;
+        }
+    } 
+
 }
+
+
+
