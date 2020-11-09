@@ -5,7 +5,7 @@ table,td {
 }
 .whiteTitles{
     color: $primary-color;
-    background-image:$img-background;
+    background-image:$gradient;
     width: 100%;
     padding: 2px;
 }
@@ -14,12 +14,14 @@ table,td {
         display: inline; 
         @include box-general;          
     }
+    
 }
 @media  screen and (min-width:800px){
     #general{
         float: left;
         @include box-general;       
      }
+    
 }   
 #beast{@extend #general};
 #agency{@extend #general};
@@ -45,6 +47,7 @@ table,td {
     } 
 
 }
+
 
 
 
