@@ -1,0 +1,14 @@
+ $primary-color: #fff;
+ $second-color: rgb(41, 36, 36);
+ $color-hover: #5386E4;
+ $third-color:#4C4B63;
+ $fourth-color:#949396;
+ $five-color:#C3C3C3;
+ $gradient:linear-gradient(to right, #0680d1 0%, #00bd56 100%);
+ $gradient2:linear-gradient(to right, #2282c2 0%, #fff 100%);
+
+
+@mixin box-general {
+    width: 25%;
+    padding: 5px; 
+}

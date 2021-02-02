@@ -1,0 +1,13 @@
+@import "componentes/globales";
+@import "componentes/boxs.scss";
+@import "componentes/footer.scss";
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
